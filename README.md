@@ -19,7 +19,7 @@ Use ".\objNodeGridGenerator -?" or ".\objNodeGridGenerator -h" to see the help c
 
 ## Main Contributors
 
-[h4ppy](https://github.com/h4ppywastaken)
+[h4ppywastaken](https://github.com/h4ppywastaken)
 
 ## Contributing
 
