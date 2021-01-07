@@ -33,12 +33,14 @@ using namespace std::chrono;
 /* DEFINITIONS */
 /*----------------------------------------------------------------*/
 
-#define HELP    "Usage: %s [filePath] [nodeCount]"\
+#define HELP    "Usage: %s -f <filePath> -n <nodeCount> [-ci]"\
                 "\n"\
-                "\n filePath: .obj input file"\
-                "\n nodeCount: number of nodes to generate"\
+                "\n -f <filePath>: .obj input file"\
+                "\n -n <nodeCount>: number of nodes to generate"\
+                "\n -c: honeycomb mode"\
+                "\n -i: improve node grid (remove nodes close to object surface)"\
                 "\n"\
-                "\n Generates a 3D cuboid grid surrounding an object and exports it into a .node file."\
+                "\n Generates a node grid inside an Axis-Aligned Bounding Box of an object and exports it into a .node file."\
                 "\n Grid properties:"\
                 "\n 	- size of the  grid is adjusted to object size"\
                 "\n 	- nodes can be outside of the object"\
