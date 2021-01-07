@@ -11,7 +11,7 @@ Use "make" with [Makefile](Makefile) or use gcc (see [Makefile](Makefile) for gc
 
 ## Usage
 
-Execute in console from within solarsystem folder with command ".\solarsystem [parameters]".
+Execute in console from within objNodeGridGenerator folder with command ".\objNodeGridGenerator [parameters]".
 
 ## Parameters
 
