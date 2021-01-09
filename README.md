@@ -1,6 +1,8 @@
 # objNodeGridGenerator
 objNodeGridGenerator is a software written in C++. Generates a node grid inside an Axis-Aligned Bounding Box for a given .obj input file and node amount. Saves the nodes to a TetGen (http://www.wias-berlin.de/software/index.jsp?id=TetGen) .node file format.
 
+objNodeGridGenerator is part of [objToSOFA](https://github.com/h4ppywastaken/objToSOFA)
+
 ## Prerequisites
 
  - gcc/make (for building from source with [Makefile](makefile))
