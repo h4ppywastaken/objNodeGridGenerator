@@ -7,7 +7,7 @@ objNodeGridGenerator is a software written in C++. Generates a node grid inside 
 
 ## Build
 
-Use "make" with [Makefile](Makefile) or use gcc (see [Makefile](makefile) for gcc commands).
+Use "make" with [Makefile](makefile) or use gcc (see [Makefile](makefile) for gcc commands).
 
 ## Usage
 
